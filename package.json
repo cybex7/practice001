@@ -1,20 +1,19 @@
 {
-  "name": "tamrin001",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "eslint": "^8.43.0",
-    "eslint-config-prettier": "^8.8.0",
-    "prettier": "2.8.8"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SimaKhoram/src.git"
-  },
-  "author": "arash"
+	"name": "vuefirst",
+	"version": "1.0.0",
+	"description": "first vue practice",
+	"main": "index.js",
+	"author": "Arash Abdous",
+	"license": "ISC",
+	"dependencies": {
+		"vue": "^2.7.14"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"format": "npx prettier --write ."
+	},
+	"devDependencies": {
+		"eslint-config-prettier": "^8.8.0",
+		"prettier": "^3.0.0"
+	}
 }
